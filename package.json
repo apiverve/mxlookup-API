@@ -1,24 +1,26 @@
 {
   "name": "@apiverve/mxlookup",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "MX Lookup is a simple tool for getting MX records for a domain. It returns the MX records for the given domain.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "example": "node examples/basic.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/apiverve/mxlookup-API.git"
   },
   "keywords": [
-    "mx lookup","mx records","mx api","mx tool","mx software"
+    "mx lookup", "mx records", "mx api", "mx tool", "mx software"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/apiverve/mxlookup-API/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/api/mxlookup?utm_source=npm",
+  "homepage": "https://apiverve.com/marketplace/mxlookup?utm_source=npm",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
@@ -27,6 +29,6 @@
   "dependencies": {
     "node-fetch": "^3.3.2",
     "promise": "^8.3.0",
-    "axios": "1.7.9"
+    "axios": "1.13.2"
   }
 }
